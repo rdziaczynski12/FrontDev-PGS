@@ -8,50 +8,60 @@
         <section id="contener">
             <header id="headerPage">
                 <h1>Witam na moim blogu!</h1>
-            </header>   
-            <article class="articles">
-                <header class="headerArticles">
-                    <h2>Informacje o mnie</h2>
-                </header>
+            </header>            
+            <section id="allArticles">            
                 <article class="articles">
-                    <img src="files/img/profil.jpg">
-                    <p>Witam nazywam się Rafał Dziaczyński i jestem studentem Politechniki Rzeszowskiej.</p>
-                </article>
-                <footer class="footerArticles">
-                    Opublikowane przez twórce strony.
-                </footer>
-            </article> 
-            <article class="articles">
-                <header class="headerArticles">
-                    <h2>Moje repozytorium na github.com</h2>
-                </header>
-                <article class="articles">                        
-                    <p>Poniżej znajduję się link do mojego repozytorium na github.com zawierającego zadania domowe.</p>
-                    <a href="https://github.com/rdziaczynski12/FrontDev-PGS">FrontDev-PGS</a>                    </article>
-                <footer class="footerArticles">
-                    Opublikowane przez twórce strony.
-                </footer>
-            </article>  
-            <article class="articles">
-                <header class="headerArticles">
-                    <h2>Mój plan dnia</h2>
-                </header>
+                    <header class="headerArticles">
+                        <h2>Informacje o mnie</h2>
+                    </header>
+                    <article class="article">
+                        <img src="files/img/profil.jpg">
+                        <p>Witam nazywam się Rafał Dziaczyński i jestem studentem Politechniki Rzeszowskiej.</p>
+                    </article>
+                    <footer class="footerArticles">
+                        Opublikowane przez twórce strony.
+                    </footer>
+                </article> 
                 <article class="articles">
-                    <p>Mój dzień składa się z wielu zajęć ale są to między innymi:</p>
-                    <ul>
-                        <li>Zajęcia na uczelni</li>
-                        <li>Nauka po zajęciach</li>
-                        <li>Praca nad własnymi projektami</li>
-                        <li>Rozrywka i spędzanie czasu z bliskimi</li>
-                    </ul>
+                    <header class="headerArticles">
+                        <h2>Moje repozytorium na github.com</h2>
+                    </header>
+                    <article class="article">                        
+                        <p>Poniżej znajduję się link do mojego repozytorium na github.com zawierającego zadania domowe.</p>
+                        <a href="https://github.com/rdziaczynski12/FrontDev-PGS">FrontDev-PGS</a>                    </article>
+                    <footer class="footerArticles">
+                        Opublikowane przez twórce strony.
+                    </footer>
                 </article>
-                <footer class="footerArticles">
-                    Opublikowane przez twórce strony.
-                </footer>
-            </article>                 
+                <article class="articles">
+                    <header class="headerArticles">
+                        <h2>Mój plan dnia</h2>
+                    </header>
+                    <article class="article">
+                        <p>Mój dzień składa się z wielu zajęć ale są to między innymi:</p>
+                        <ul>
+                            <li>Zajęcia na uczelni</li>
+                            <li>Nauka po zajęciach</li>
+                            <li>Praca nad własnymi projektami</li>
+                            <li>Odpoczynek</li>
+                        </ul>
+                    </article>
+                    <footer class="footerArticles">
+                        Opublikowane przez twórce strony.
+                    </footer>
+                </article>
+            </section>
             <footer id="footer">
                 <h3>Formularz kontaktowy:</h3>
-
+                <form >
+                    <label for="topic">Temat: </label>
+                    <input type="text" id="topic">
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email">
+                    <label for="message">Treść wiadomości: </label>
+                    <textarea placeholder="Wpisz treść wiadomości"></textarea>
+                    <button type="submit">Wyślij</button>
+                </form>
             </footer>
         </section>
     </body>
